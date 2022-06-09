@@ -1,0 +1,65 @@
+
+body {
+    text-align: center;
+    background-color: rgb(18, 20, 36);
+}
+/* header or title*/
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    padding-top: 8px;
+    background-color: rgb(22, 31, 49);
+    color: rgb(245, 91, 2);
+    margin-bottom: 30px;
+}
+/* tabuleiro */
+.square {
+    width:100px;
+    height:100px;
+    background-color: rgb(179, 179, 174);
+    border: 5px solid rgb(22, 31, 49);
+    display: inline-block;
+}
+
+/* shield */
+.o:after {
+    position: absolute;
+    content: "\1F6E1";
+    font-size: 50px;
+    line-height: 100px;
+    /*centralizar elemento em relação ao pai */
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.o {
+    /* correção do "centralizar ao pai" */
+    position: relative;
+}
+
+/* sword */
+.x:after {
+    position: absolute;
+    content: "\2694";
+    font-size: 50px;
+    line-height: 100px;
+    /*centralizar elemento em relação ao pai */
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x {
+    /* correção do "centralizar ao pai" */
+    position: relative;
+}
+
+.btn {
+    border: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    background-color: rgb(245, 91, 2);
+}
