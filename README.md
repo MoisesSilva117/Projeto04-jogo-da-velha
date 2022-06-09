@@ -1,6 +1,6 @@
 # Projeto04-jogo-da-velha
 
-Projeto jogo da Velha, 4 projeto do curso Dev Web Fullstack do ProgBr.
+Projeto jogo da Velha, quarto projeto do curso Dev Web Fullstack do ProgBr.
 nesse projeto usamos tudo que aprendemos até aqui, fim dos módulos de html, css, js do básico ao avançado, tive umas peculiaridades, bugs por conta de erro de sintaxe.
 
 Preview:
